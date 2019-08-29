@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Projects</title>
+	</head>
+	<body>
+		<h1>Projects</h1>
+		<p>Here is one project</p>
+		<p>Here is another project</p>
+	</body>
+</html>
