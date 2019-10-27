@@ -1,14 +1,35 @@
 body{
-    background-color: #000000;
+	background-color: #000000;
+	padding: 0rem 10rem;
 }
 
 header{
-	margin: 0rem 10rem;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
 	background-color: #2035F7;
+	color: #FFFFFF;
+}
+
+nav a{
+	padding: 1rem;
 }
 
 main{
-	margin: 0rem 10rem;
 	background-color: #383838;
 	color: #FFFFFF;
+	margin: 0rem;
+}
+
+footer{
+	background-color: #2035F7;
+	color: #FFFFFF;
+	margin: 0rem;
+	padding: 1rem;
+}
+
+footer p{
+	margin: 0rem;
 }
