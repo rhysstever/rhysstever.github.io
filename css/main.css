@@ -1,24 +1,35 @@
 body{
 	background-color: #000000;
-	padding: 0rem 10rem;
+	padding: 0rem 15rem;
 }
 
-header{
-}
-
-nav{
-	display: flex;
-	flex-direction: row;
+.navbar{
 	background-color: #2035F7;
 	color: #FFFFFF;
 }
 
-nav a{
-	padding: 1rem;
+@media only screen and (max-width: 1350px)
+{
+	body{
+		padding: 0rem 10rem;
+	}
 }
 
-main{
-	background-color: #383838;
+@media only screen and (max-width: 1200px)
+{
+	body{
+		padding: 0rem 5rem;
+	}
+}
+
+@media only screen and (max-width: 1024px)
+{
+	body{
+		padding: 0rem;
+	}
+}
+
+main .jumbotron{
 	color: #FFFFFF;
 	margin: 0rem;
 }
@@ -26,10 +37,5 @@ main{
 footer{
 	background-color: #2035F7;
 	color: #FFFFFF;
-	margin: 0rem;
 	padding: 1rem;
-}
-
-footer p{
-	margin: 0rem;
 }
