@@ -14,9 +14,17 @@ main .jumbotron{
 }
 
 footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-height: 5rem;
 	background-color: #2035F7;
 	color: #FFFFFF;
 	padding: 1rem;
+}
+
+footer img{
+	max-height: 3rem;
 }
 
 /* Media Queries for shrinking side margins */
