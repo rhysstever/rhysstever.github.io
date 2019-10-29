@@ -8,27 +8,6 @@ body{
 	color: #FFFFFF;
 }
 
-@media only screen and (max-width: 1350px)
-{
-	body{
-		padding: 0rem 10rem;
-	}
-}
-
-@media only screen and (max-width: 1200px)
-{
-	body{
-		padding: 0rem 5rem;
-	}
-}
-
-@media only screen and (max-width: 1024px)
-{
-	body{
-		padding: 0rem;
-	}
-}
-
 main .jumbotron{
 	color: #FFFFFF;
 	margin: 0rem;
@@ -38,4 +17,40 @@ footer{
 	background-color: #2035F7;
 	color: #FFFFFF;
 	padding: 1rem;
+}
+
+/* Media Queries for shrinking side margins */
+@media only screen and (max-width: 1356px)
+{
+	body{
+		padding: 0rem 12rem;
+	}
+}
+
+@media only screen and (max-width: 1273px)
+{
+	body{
+		padding: 0rem 9rem;
+	}
+}
+
+@media only screen and (max-width: 1190px)
+{
+	body{
+		padding: 0rem 6rem;
+	}
+}
+
+@media only screen and (max-width: 1107px)
+{
+	body{
+		padding: 0rem 3rem;
+	}
+}
+
+@media only screen and (max-width: 1024px)
+{
+	body{
+		padding: 0rem;
+	}
 }
