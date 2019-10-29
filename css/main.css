@@ -4,8 +4,16 @@ body{
 }
 
 .navbar{
-	background-color: #2035F7;
+	background-color: #1098F7;
 	color: #FFFFFF;
+}
+
+nav a{
+	color: #FFFFFF;
+}
+
+main{
+	background-color: #383838; 
 }
 
 main .jumbotron{
@@ -18,13 +26,22 @@ footer{
 	flex-direction: row;
 	justify-content: space-between;
 	max-height: 5rem;
-	background-color: #2035F7;
+	background-color: #1098F7;
 	color: #FFFFFF;
 	padding: 1rem;
 }
 
+footer .jumbotron{
+	background-color: #1098F7;
+	color: #FFFFFF;
+}
+
 footer img{
 	max-height: 3rem;
+}
+
+.footerItem{
+	color: #FFFFFF;
 }
 
 /* Media Queries for shrinking side margins */
