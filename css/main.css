@@ -3,7 +3,8 @@
 	Color:		Hex Code:
 	Black 		#000000
 	White 		#FFFFFF
-	Grey		#383838
+	Dark Grey	#383838
+	Light Grey	#
 	Light Blue	#1098F7
 	Dark Blue	#4444D0
 */
@@ -23,7 +24,7 @@ nav a{
 }
 
 main{
-	background-color: #383838; 
+	background-color: #383838;
 }
 
 main .jumbotron{
