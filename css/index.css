@@ -1,0 +1,14 @@
+h3{
+     text-align: center;
+}
+
+section{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+img{
+     max-width: 20rem;
+     max-height: auto;
+}

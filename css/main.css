@@ -3,7 +3,7 @@
 	Color:		Hex Code:
 	Black 		#000000
 	White 		#FFFFFF
-	Dark Grey	#383838
+	Dark Grey		#383838
 	Light Grey	#
 	Light Blue	#1098F7
 	Dark Blue	#4444D0
@@ -12,47 +12,6 @@
 body{
 	background-color: #000000;
 	padding: 0rem 15rem;
-}
-
-.navbar{
-	background-color: #1098F7;
-	color: #FFFFFF;
-}
-
-nav a{
-	color: #FFFFFF;
-}
-
-main{
-	background-color: #383838;
-}
-
-main .jumbotron{
-	color: #FFFFFF;
-	margin: 0rem;
-}
-
-footer{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	max-height: 5rem;
-	background-color: #1098F7;
-	color: #FFFFFF;
-	padding: 1rem;
-}
-
-footer .jumbotron{
-	background-color: #1098F7;
-	color: #FFFFFF;
-}
-
-footer img{
-	max-height: 3rem;
-}
-
-.footerItem{
-	color: #FFFFFF;
 }
 
 /* Media Queries for shrinking side margins */
@@ -89,4 +48,43 @@ footer img{
 	body{
 		padding: 0rem;
 	}
+}
+
+.navbar{
+	background-color: #1098F7;
+	color: #FFFFFF;
+}
+
+a{
+	color: white;
+}
+
+main{
+	background-color: #383838;
+	color: #FFFFFF;
+	margin: 0rem;
+	padding: 1rem;
+}
+
+main h1{
+	text-align: center;
+	margin: 0rem 0rem 1rem 0rem;
+}
+
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-height: 5rem;
+	background-color: #1098F7;
+	color: #FFFFFF;
+	padding: 1rem;
+}
+
+footer img{
+	max-height: 3rem;
+}
+
+.footerItem{
+	color: #FFFFFF;
 }

@@ -1,0 +1,11 @@
+section{
+     display: flex;
+}
+
+.info-item{
+     margin: 1rem;
+}
+
+h2{
+     text-align: center;
+}
