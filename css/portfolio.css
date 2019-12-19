@@ -1,36 +1,35 @@
 .proj-grid{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
+	column-gap: 1rem;
 }
 
 .proj{
 	text-align: center;
-	padding: 1rem;
-}
-
-h4 > a:link{
-	color: white;
 }
 
 h4 > a:hover{
 	text-decoration: none;
 }
 
+img{
+	margin: 1rem;
+	max-width: 20rem;
+}
+
 
 /* Media Queries for rearranging grid */
-@media only screen and (max-width: 768px)
-{
+@media only screen and (max-width: 768px){
 	.proj-grid{
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
 	}
 }
 
-@media only screen and (max-width: 500px)
-{
+@media only screen and (max-width: 500px){
 	.proj-grid{
 		grid-template-columns: 1fr;
-		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
 	}
 }

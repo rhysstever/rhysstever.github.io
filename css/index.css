@@ -12,3 +12,13 @@ img{
      max-width: 20rem;
      max-height: auto;
 }
+
+@media only screen and (max-width: 768px){
+     section{
+          flex-direction: column;
+     }
+
+     img{
+          margin: 1rem;
+     }
+}

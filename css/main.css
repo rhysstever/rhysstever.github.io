@@ -15,36 +15,31 @@ body{
 }
 
 /* Media Queries for shrinking side margins */
-@media only screen and (max-width: 1356px)
-{
+@media only screen and (max-width: 1356px){
 	body{
 		padding: 0rem 12rem;
 	}
 }
 
-@media only screen and (max-width: 1273px)
-{
+@media only screen and (max-width: 1273px){
 	body{
 		padding: 0rem 9rem;
 	}
 }
 
-@media only screen and (max-width: 1190px)
-{
+@media only screen and (max-width: 1190px){
 	body{
 		padding: 0rem 6rem;
 	}
 }
 
-@media only screen and (max-width: 1107px)
-{
+@media only screen and (max-width: 1107px){
 	body{
 		padding: 0rem 3rem;
 	}
 }
 
-@media only screen and (max-width: 1024px)
-{
+@media only screen and (max-width: 1024px){
 	body{
 		padding: 0rem;
 	}
@@ -83,6 +78,7 @@ footer{
 
 footer img{
 	max-height: 3rem;
+	margin: 0rem 0.5rem;
 }
 
 .footerItem{
