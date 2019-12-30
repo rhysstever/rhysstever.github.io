@@ -19,12 +19,13 @@ img{
 }
 
 p a{
-	color: #4444D0;
+	color: #1098F7;
 	text-decoration: none;
 }
 
 p a:hover{
 	color: #FFFFFF;
+	text-decoration: none;
 }
 
 
