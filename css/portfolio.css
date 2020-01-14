@@ -35,7 +35,8 @@ h4 > a:hover{
 
 img{
 	margin: 1rem;
-	max-width: 15rem;
+	max-width: 13rem;
+	height: auto;
 }
 
 p a{
