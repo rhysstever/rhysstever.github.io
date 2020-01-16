@@ -35,17 +35,12 @@ h4 > a:hover{
 
 img{
 	margin: 1rem;
-	max-width: 13rem;
-	height: auto;
+	max-height: 8rem;
+	width: auto;
 }
 
-p a{
-	color: #1098F7;
-	text-decoration: none;
-}
-
-p a:hover{
-	color: #FFFFFF;
+.proj a:hover{
+	color: #8C8C8C;
 	text-decoration: none;
 }
 
