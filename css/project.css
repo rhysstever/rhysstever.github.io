@@ -1,0 +1,10 @@
+.langs{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0.5rem 2.5rem;
+}
+
+.langs img{
+	max-height: 2rem;
+	margin: 0rem;
+}
