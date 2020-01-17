@@ -2,19 +2,18 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
-	column-gap: 2rem;
 	row-gap: 2rem;
 }
 
 /* Media Queries for rearranging grid */
-@media only screen and (max-width: 875px){
+@media only screen and (max-width: 960px){
 	.proj-grid{
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr 1fr 1fr;
 	}
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 675px){
 	.proj-grid{
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -33,10 +32,16 @@ h4 > a:hover{
 	text-decoration: none;
 }
 
-img{
-	margin: 1rem;
-	max-height: 10rem;
+.proj img{
+	margin: 0.5rem;
+	max-height: 11rem;
 	width: auto;
+}
+
+@media only screen and (max-width: 425px){
+	.proj img{
+		max-height: 8rem;
+	}
 }
 
 .proj a:hover{

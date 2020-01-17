@@ -9,39 +9,85 @@
 	Dark Blue	#4444D0
 */
 
-body{
+html, body{
 	background-color: #000000;
-	padding: 0rem 15rem;
+	min-height: 100%;
+}
+
+header, main, footer{
+	margin: 0rem 12rem;	
 }
 
 /* Media Queries for shrinking side margins */
-@media only screen and (max-width: 1356px){
-	body{
-		padding: 0rem 12rem;
+@media only screen and (max-width: 1408px){
+	header, main, footer{
+		margin: 0rem 11rem;
 	}
 }
 
-@media only screen and (max-width: 1273px){
-	body{
-		padding: 0rem 9rem;
+@media only screen and (max-width: 1376px){
+	header, main, footer{
+		margin: 0rem 10rem;
 	}
 }
 
-@media only screen and (max-width: 1190px){
-	body{
-		padding: 0rem 6rem;
+@media only screen and (max-width: 1344px){
+	header, main, footer{
+		margin: 0rem 9rem;
 	}
 }
 
-@media only screen and (max-width: 1107px){
-	body{
-		padding: 0rem 3rem;
+@media only screen and (max-width: 1312px){
+	header, main, footer{
+		margin: 0rem 8rem;
 	}
 }
 
-@media only screen and (max-width: 1024px){
-	body{
-		padding: 0rem;
+@media only screen and (max-width: 1280px){
+	header, main, footer{
+		margin: 0rem 7rem;
+	}
+}
+
+@media only screen and (max-width: 1248px){
+	header, main, footer{
+		margin: 0rem 6rem;
+	}
+}
+
+@media only screen and (max-width: 1216px){
+	header, main, footer{
+		margin: 0rem 5rem;
+	}
+}
+
+@media only screen and (max-width: 1184px){
+	header, main, footer{
+		margin: 0rem 4rem;
+	}
+}
+
+@media only screen and (max-width: 1152px){
+	header, main, footer{
+		margin: 0rem 3rem;
+	}
+}
+
+@media only screen and (max-width: 1120px){
+	header, main, footer{
+		margin: 0rem 2rem;
+	}
+}
+
+@media only screen and (max-width: 1088px){
+	header, main, footer{
+		margin: 0rem 1rem;
+	}
+}
+
+@media only screen and (max-width: 1056px){
+	header, main, footer{
+		margin: 0rem 0rem;
 	}
 }
 
@@ -61,7 +107,6 @@ a:hover{
 main{
 	background-color: #383838;
 	color: #FFFFFF;
-	margin: 0rem;
 	padding: 1rem;
 }
 
@@ -69,6 +114,8 @@ main h1{
 	text-align: center;
 	margin: 0rem 0rem 1rem 0rem;
 }
+
+html,body{ min-height: 100%;}
 
 footer{
 	display: flex;
@@ -87,4 +134,8 @@ footer img{
 
 .footerItem{
 	color: #FFFFFF;
+}
+
+.footerItem p{
+	margin: 0rem;
 }
