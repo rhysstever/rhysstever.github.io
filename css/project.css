@@ -1,3 +1,11 @@
+#subHeader{
+	text-align: center;
+}
+
+.layout{
+	display: grid;		
+}
+
 .langs{
 	display: flex;
 	justify-content: space-evenly;
