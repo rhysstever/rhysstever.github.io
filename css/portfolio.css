@@ -1,22 +1,22 @@
 .proj-grid{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
 	row-gap: 2rem;
 }
 
 /* Media Queries for rearranging grid */
 @media only screen and (max-width: 960px){
 	.proj-grid{
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 1fr 1fr 1fr;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 1fr);
 	}
 }
 
-@media only screen and (max-width: 675px){
+@media only screen and (max-width: 765px){
 	.proj-grid{
 		grid-template-columns: 1fr;
-		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: repeat(6, 1fr);
 	}
 }
 
