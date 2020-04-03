@@ -1,16 +1,25 @@
 .layout{
 	display: grid;
-	grid-template-areas: 
-		"languages description links";	
+	grid-template-areas:
+		"languages image1"
+		"image2 description"
+		"links image3";	
 }
 
-#subHeader{
-	grid-area: "description";
-	text-align: center;
+@media only screen and (max-width: 1700px){
+     .layout{
+		grid-template-areas: 
+			"languages"
+			"description"
+			"links"
+			"image1"
+			"image2"
+			"image3";
+	}
 }
 
 .langs{
-	grid-area: "languages";
+	grid-area: languages;
 	display: flex;
 	justify-content: space-evenly;
 	margin: 0.5rem 2.5rem;
@@ -21,11 +30,39 @@
 	margin: 0rem;
 }
 
+#subHeader{
+	grid-area: description;
+	text-align: center;
+}
+
 .links{
-	grid-area: "links";
+	grid-area: links;
+}
+
+#image1{
+	grid-area: image1;
+}
+
+#image2{
+	grid-area: image2;
+}
+
+#image3{
+	grid-area: image3;
 }
 
 #github{
 	max-height: 2rem;
 	width: auto;
+}
+
+.proj-img{
+	text-align: center;
+}
+
+img{
+	max-width: 40rem;
+	max-height: auto;
+
+	padding: 1rem;
 }
