@@ -1,16 +1,16 @@
 .layout{
 	display: grid;
 	grid-template-areas:
-		"languages image1"
-		"image2 description"
+		"description image1"
+		"image2 languages"
 		"links image3";	
 }
 
-@media only screen and (max-width: 1700px){
+@media only screen and (max-width: 700px){
      .layout{
 		grid-template-areas: 
-			"languages"
 			"description"
+			"languages"
 			"links"
 			"image1"
 			"image2"
@@ -35,7 +35,7 @@
 	text-align: center;
 }
 
-.links{
+#links > a{
 	grid-area: links;
 }
 
@@ -51,18 +51,41 @@
 	grid-area: image3;
 }
 
-#github{
-	max-height: 2rem;
-	width: auto;
-}
-
 .proj-img{
 	text-align: center;
 }
 
-img{
-	max-width: 40rem;
+.proj-img > img{
+	max-width: 30rem;
 	max-height: auto;
 
 	padding: 1rem;
+}
+
+@media only screen and (max-width: 1024px){
+     .proj-img > img{
+		max-width: 30rem;
+		max-height: auto;
+	}
+}
+
+@media only screen and (max-width: 550px){
+     .proj-img > img{
+		max-width: 25rem;
+		max-height: auto;
+	}
+}
+
+@media only screen and (max-width: 425px){
+     .proj-img > img{
+		max-width: 20rem;
+		max-height: auto;
+	}
+}
+
+@media only screen and (max-width: 320px){
+     .proj-img > img{
+		max-width: 15rem;
+		max-height: auto;
+	}
 }
