@@ -9,8 +9,8 @@ section{
 }
 
 img{
-     max-width: 20rem;
-     max-height: auto;
+     width: 20rem;
+     height: auto;
 
      border-radius: 50%;
 }
