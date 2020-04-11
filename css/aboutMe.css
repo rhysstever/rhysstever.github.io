@@ -64,14 +64,18 @@ section{
 
 #contact img{
      height: 3rem;
-
      margin: 0rem 0.5rem;
 }
 
-.info-item{
-     margin: 1rem;
+.info{
+     display: flex;
 }
 
 h2{
      text-align: center;
+}
+
+img{
+     height: 10rem;
+     width: auto;
 }
