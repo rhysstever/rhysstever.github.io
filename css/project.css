@@ -2,11 +2,11 @@
 	display: grid;
 	grid-template-areas:
 		"description image1"
-		"image2 languages"
+		"languages image2"
 		"links image3";	
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 768px){
      .layout{
 		grid-template-areas: 
 			"description"
@@ -30,14 +30,19 @@
 	margin: 0rem;
 }
 
-#subHeader{
+#description{
 	grid-area: description;
 	text-align: center;
 }
 
-#links > a{
+#links{
 	grid-area: links;
+	text-align: center;
 }
+
+/* #links > a{
+
+} */
 
 #image1{
 	grid-area: image1;
@@ -56,7 +61,7 @@
 }
 
 .proj-img > img{
-	max-width: 30rem;
+	max-width: 40rem;
 	max-height: auto;
 
 	padding: 1rem;
