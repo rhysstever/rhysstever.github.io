@@ -1,9 +1,9 @@
 .layout{
 	display: grid;
 	grid-template-areas:
-		"description image1"
-		"languages image2"
-		"links image3";	
+		"description media1"
+		"languages media2"
+		"links media3";	
 }
 
 @media only screen and (max-width: 768px){
@@ -12,9 +12,9 @@
 			"description"
 			"languages"
 			"links"
-			"image1"
-			"image2"
-			"image3";
+			"media1"
+			"media2"
+			"media3";
 	}
 }
 
@@ -52,23 +52,23 @@
 	height: auto;
 }
 
-#image1{
-	grid-area: image1;
+#media1{
+	grid-area: media1;
 }
 
-#image2{
-	grid-area: image2;
+#media2{
+	grid-area: media2;
 }
 
-#image3{
-	grid-area: image3;
+#media3{
+	grid-area: media3;
 }
 
 .proj-img{
 	text-align: center;
 }
 
-.proj-img > img{
+.proj-img > img, video{
 	width: 40rem;
 	height: auto;
 
@@ -76,28 +76,28 @@
 }
 
 @media only screen and (max-width: 1024px){
-     .proj-img > img{
+     .proj-img > img, video{
 		width: 30rem;
 		height: auto;
 	}
 }
 
 @media only screen and (max-width: 550px){
-     .proj-img > img{
+     .proj-img > img, video{
 		width: 25rem;
 		height: auto;
 	}
 }
 
 @media only screen and (max-width: 425px){
-     .proj-img > img{
+     .proj-img > img, video{
 		width: 20rem;
 		height: auto;
 	}
 }
 
 @media only screen and (max-width: 320px){
-     .proj-img > img{
+     .proj-img > img, video{
 		width: 15rem;
 		height: auto;
 	}
