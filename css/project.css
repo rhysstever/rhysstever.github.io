@@ -25,6 +25,10 @@
 	padding: 1rem;
 }
 
+#description > a:hover{
+	text-decoration: underline;
+}
+
 .langs{
 	grid-area: languages;
 	display: flex;
