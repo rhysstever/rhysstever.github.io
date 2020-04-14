@@ -1,5 +1,7 @@
 .layout{
 	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
 	grid-template-areas:
 		"description media1"
 		"media2 about"
@@ -10,6 +12,7 @@
 
 @media only screen and (max-width: 850px){
      .layout{
+		grid-template-columns: 1fr;
 		grid-template-areas: 
 			"description"
 			"about"
@@ -17,6 +20,7 @@
 			"media1"
 			"media2"
 			"media3";
+		row-gap: 2rem;
 	}
 }
 
@@ -26,8 +30,6 @@
 
 #description{
 	grid-area: description;
-
-	padding: 1rem;
 }
 
 #description > a:hover{
@@ -47,24 +49,34 @@
 }
 
 #langs img{
-	max-height: 2.5rem;
-
+	height: 2.5rem;
+	width: auto;
 	margin: 0rem 1rem;
 }
 
 #links{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
-
 	padding: 1rem;
 }
 
+#links a{
+	margin: 0rem 1rem;
+}
+
 #links img{
-	width: 5rem;
+	width: 4rem;
 	height: auto;
 }
 
 #mechanics{
 	grid-area: mechanics;
+}
+
+#mechanics p, #description p{
+	text-indent: 2rem;
 }
 
 #media1{
@@ -91,6 +103,10 @@ h2{
 	width: 40rem;
 	height: auto;
 
+}
+
+.proj-item{
+	
 }
 
 @media only screen and (max-width: 1700px){
