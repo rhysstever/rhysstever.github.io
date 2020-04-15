@@ -38,12 +38,12 @@
 
 #about{
 	grid-area: about;
+	text-align: center;
 }
 
 #langs{
 	display: flex;
 	justify-content: center;
-
 	margin: 0.5rem 2.5rem;
 	padding: 1rem;
 }
@@ -77,6 +77,10 @@
 
 #mechanics p, #description p{
 	text-indent: 2rem;
+}
+
+#mechanics dl{
+	display: flex;
 }
 
 #media1{
