@@ -36,6 +36,10 @@
 	text-decoration: underline;
 }
 
+#description p{
+	text-indent: 2rem;
+}
+
 #about{
 	grid-area: about;
 	text-align: center;
@@ -73,10 +77,6 @@
 
 #mechanics{
 	grid-area: mechanics;
-}
-
-#mechanics p, #description p{
-	text-indent: 2rem;
 }
 
 #mechanics dl{
