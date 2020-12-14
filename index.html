@@ -1,65 +1,132 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Rhys Stever</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/styles.css">
+	</head>
+	<body class="is-preload">
+		<!-- Page Wrapper -->
+		<div id="page-wrapper">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Rhys Stever - Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html">Rhys Stever <span>Software Developer</span></a></h1>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+			
+			<!-- Menu -->
+			<nav id="menu">
+				<div class="inner">
+					<h2>Menu</h2>
+					<ul class="links">
+						<li><a href="/">Home</a></li>
+						<li><a href="pages/aboutMe.html">About Me</a></li>
+						<li><a href="pages/projects.html">Projects</a></li>
+						<li><a href="RhysSteverResume.pdf">Resume</a></li>
+						<!-- <li><a href="pages/elements.html">Elements</a></li> -->
+					</ul>
+				</div>
+			</nav>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/index.css">
+			<!-- Main -->
+			<div id="main">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
-        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-        crossorigin="anonymous"></script>
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark">
-            <a class="navbar-brand" href="">Rhys Stever</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="pages/portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="pages/aboutMe.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="RhysSteverResume.pdf">Resume</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <h1>Rhys Stever</h1>
-        <section>
-            <img src="media/rhys.jpg" alt="Myself">
-            <h3>Welcome to my personal portfolio site!
-            <br>It is still a work in progress, 
-            <br>but should be done soon.</h3>
-        </section> 
-    </main>
-    <footer>
-        <div class="footerItem">
-            <p>Rhys Stever</p>
-        </div>
-        <div class="footerItem">
-            <a href="https://github.com/rhysstever/rhysstever.github.io">
-				<img src="media/social-media-images/github.png" alt="GitHub Repo"></a>
-        </div>
-    </footer>   
-</body>
+				<!-- Banner -->
+				<section id="banner">
+					<header class="major">
+						<h2>Rhys Stever</h2>
+						<p>Welcome to my Portfolio Site!
+						<br/>As you can see, it is still being worked on, 
+						<br/>but I am constantly working on it!
+						</p>
+					</header>
+					<footer>
+						<ul class="actions special">
+							<li><a href="#" class="button large" onclick="gettingStartedClick(); return false;">Get Started</a></li>
+						</ul>
+					</footer>
+				</section>
+
+				<!-- One -->
+				<section id="one" class="features">
+					<header class="major">
+						<h2>Header</h2>
+						<p>Mauris lectus odio, mattis nec velit eu, luctus dictum diam. Quis<br />
+						tempus que ornare purus a bibendum ultricies.</p>
+					</header>
+					<div class="content">
+						<section class="feature">
+							<img class="icon-imported" src="images/icons/about.png" alt="Info Icon">
+							<a href="/pages/aboutMe.html">
+								<h3>About Me</h3>
+								<p>Learn about me and send me an email</p>
+							</a>
+						</section>
+						<section class="feature">
+							<img class="icon-imported" src="images/icons/code.png" alt="Code Icon">
+							<a href="/pages/projects.html">
+								<h3>Projects</h3>
+								<p>My projects and technical work: from web development to game design</p>
+							</a>
+						</section>
+						<section class="feature">
+							<img class="icon-imported" src="images/icons/page.png" alt="Page Icon">
+							<a href="/RhysSteverResume.pdf">
+								<h3>Resume</h3>
+								<p>My work experience and skills, downloadable as a PDF</p>
+							</a>
+						</section>
+					</div>
+				</section>
+			</div>
+
+			<!-- Footer -->
+			<section id="footer">
+				<div class="inner">
+					<section class="about">
+						<h3>Lorem ipsum dolor sit.</h3>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, odio.</p>
+					</section>
+					<section>
+						<h3>Contact Info</h3>
+						<ul class="contact">
+							<li class="icon solid fa-phone">(215) 512-3331</li>
+							<li class="icon solid fa-envelope"><a href="pages/aboutMe.html">rhys@stever.com</a></li>
+							<li class="icon brands fa-twitter"><a href="https://twitter.com/rhys_stever">@rhys_stever</a></li>
+							<li class="icon brands fa-github"><a href="https://github.com/rhysstever">@rhysstever</a></li>
+						</ul>
+					</section>
+					<section>
+						<h3>Mailing Address</h3>
+						<p>Rhys Stever<br />
+						4209 Marie Circle<br />
+						<!-- Suite 5432<br /> -->
+						Doylestown, PA 18902<br />
+						USA</p>
+					</section>
+				</div>
+				<div class="copyright">
+					<p>Design: <a href="https://pixelarity.com/magnetic">Magnetic</a> by <a href="https://pixelarity.com/">Pixelarity</a></p>
+				</div>
+			</section>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/helper.js"></script>
+		<script>
+			function gettingStartedClick(){
+				window.scrollTo(0, helper.calculateScrollYPos(document.querySelector("#one"), 100));
+			}
+		</script>
+	</body>
 </html>
