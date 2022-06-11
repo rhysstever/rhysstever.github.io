@@ -1,0 +1,8 @@
+html{
+     scroll-behavior: smooth;
+}
+
+.icon-imported{
+     max-height: 33px;
+     max-width: auto;
+}

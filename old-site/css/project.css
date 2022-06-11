@@ -1,0 +1,177 @@
+.layout{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-areas:
+		"description media1"
+		"media2 about"
+		"mechanics media3";
+	row-gap: 2rem;
+	column-gap: 1rem;
+}
+
+@media only screen and (max-width: 850px){
+     .layout{
+		grid-template-columns: 1fr;
+		grid-template-areas: 
+			"description"
+			"about"
+			"mechanics"
+			"media1"
+			"media2"
+			"media3";
+		row-gap: 2rem;
+	}
+}
+
+#subheader{
+	text-align: center;
+}
+
+#description{
+	grid-area: description;
+}
+
+#description > a:hover{
+	text-decoration: underline;
+}
+
+#description p{
+	text-indent: 2rem;
+}
+
+#about{
+	grid-area: about;
+	text-align: center;
+}
+
+#langs{
+	display: flex;
+	justify-content: center;
+	margin: 0.5rem 2.5rem;
+	padding: 1rem;
+}
+
+#langs img{
+	height: 2.5rem;
+	width: auto;
+	margin: 0rem 1rem;
+}
+
+#links{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 1rem;
+}
+
+#links a{
+	margin: 0rem 1rem;
+}
+
+#links img{
+	width: 4rem;
+	height: auto;
+}
+
+#mechanics{
+	grid-area: mechanics;
+}
+
+#mechanics dl{
+	display: flex;
+}
+
+#media1{
+	grid-area: media1;
+}
+
+#media2{
+	grid-area: media2;
+}
+
+#media3{
+	grid-area: media3;
+}
+
+h2{
+	text-align: center;
+}
+
+.proj-img{
+	text-align: center;
+}
+
+.proj-img > img, video{
+	width: 40rem;
+	height: auto;
+
+}
+
+.proj-item{
+	
+}
+
+@media only screen and (max-width: 1700px){
+     .proj-img > img, video{
+		width: 35rem;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 1550px){
+     .proj-img > img, video{
+		width: 30rem;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 1024px){
+     .proj-img > img, video{
+		width: 25rem;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 850px){
+     .proj-img > img, video{
+		width: 40rem;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 700px){
+     .proj-img > img, video{
+		width: 35rem;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 600px){
+     .proj-img > img, video{
+		width: 30rem;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 530px){
+     .proj-img > img, video{
+		width: 25rem;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 425px){
+     .proj-img > img, video{
+		width: 20rem;
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 360px){
+     .proj-img > img, video{
+		width: 15rem;
+		height: auto;
+	}
+}

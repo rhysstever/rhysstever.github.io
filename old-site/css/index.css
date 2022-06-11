@@ -1,0 +1,26 @@
+h3{
+     text-align: center;
+}
+
+section{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+img{
+     width: 20rem;
+     height: auto;
+
+     border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px){
+     section{
+          flex-direction: column;
+     }
+
+     img{
+          margin: 1rem;
+     }
+}

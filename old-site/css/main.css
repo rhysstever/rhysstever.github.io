@@ -1,0 +1,149 @@
+/* 
+	=== Color Scheme === 
+	Color:		Hex Code:
+	Black 		#000000
+	White 		#FFFFFF
+	Dark Grey		#383838
+	Light Grey	#8C8C8C
+	Light Blue	#1098F7
+	Dark Blue		#4444D0
+*/
+
+html, body{
+	background-color: #000000;
+	min-height: 100%;
+}
+
+header, main, footer{
+	margin: 0rem 12rem;	
+}
+
+/* Media Queries for shrinking side margins */
+@media only screen and (max-width: 1408px){
+	header, main, footer{
+		margin: 0rem 11rem;
+	}
+}
+
+@media only screen and (max-width: 1376px){
+	header, main, footer{
+		margin: 0rem 10rem;
+	}
+}
+
+@media only screen and (max-width: 1344px){
+	header, main, footer{
+		margin: 0rem 9rem;
+	}
+}
+
+@media only screen and (max-width: 1312px){
+	header, main, footer{
+		margin: 0rem 8rem;
+	}
+}
+
+@media only screen and (max-width: 1280px){
+	header, main, footer{
+		margin: 0rem 7rem;
+	}
+}
+
+@media only screen and (max-width: 1248px){
+	header, main, footer{
+		margin: 0rem 6rem;
+	}
+}
+
+@media only screen and (max-width: 1216px){
+	header, main, footer{
+		margin: 0rem 5rem;
+	}
+}
+
+@media only screen and (max-width: 1184px){
+	header, main, footer{
+		margin: 0rem 4rem;
+	}
+}
+
+@media only screen and (max-width: 1152px){
+	header, main, footer{
+		margin: 0rem 3rem;
+	}
+}
+
+@media only screen and (max-width: 1120px){
+	header, main, footer{
+		margin: 0rem 2rem;
+	}
+}
+
+@media only screen and (max-width: 1088px){
+	header, main, footer{
+		margin: 0rem 1rem;
+	}
+}
+
+@media only screen and (max-width: 1056px){
+	header, main, footer{
+		margin: 0rem 0rem;
+	}
+}
+
+.navbar{
+	background-color: #1098F7;
+	color: #FFFFFF;
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+main{
+	background-color: #383838;
+	color: #FFFFFF;
+	padding: 1rem;
+}
+
+main h1{
+	text-align: center;
+	margin: 0rem 0rem 1rem 0rem;
+}
+
+html,body{ min-height: 100%;}
+
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-height: 5rem;
+	background-color: #1098F7;
+	color: #FFFFFF;
+	padding: 1rem;
+}
+
+footer img{
+	height: 2.5rem;
+	width: auto;
+	margin: 0rem 0.5rem;
+}
+
+@media only screen and (max-width: 425px){
+	footer img{
+		height: 2rem;
+		width: auto;
+	}
+}
+
+.footerItem{
+	color: #FFFFFF;
+}
+
+.footerItem p{
+	margin: 0rem;
+}

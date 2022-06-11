@@ -1,0 +1,81 @@
+section{
+     display: grid;
+     grid-template-areas: 
+          "school bg contact"
+          "activities games contact";
+     column-gap: 1rem;
+}
+
+@media only screen and (max-width: 850px){
+     section{
+          grid-template-areas: 
+               "school contact"
+               "bg contact"
+               "activities games";
+     }
+}
+
+@media only screen and (max-width: 570px){
+     section{
+          grid-template-areas: 
+               "contact"
+               "school"
+               "bg"
+               "activities"
+               "games";
+          
+          row-gap: 2rem;
+          column-gap: 0rem;
+     }
+
+     #contact{
+          margin: 0rem 0rem 0rem 2rem;
+     }
+}
+
+#school{
+     grid-area: school;
+     text-indent: 2rem;
+     margin: 1rem;
+}
+
+#background{
+     grid-area: bg;
+     text-indent: 2rem;
+     margin: 1rem;
+}
+
+#activities{
+     grid-area: activities;
+     text-indent: 2rem;
+     margin: 1rem;
+}
+
+#games{
+     grid-area: games;
+     text-indent: 2rem;
+     margin: 1rem;
+}
+
+#contact{
+     grid-area: contact;
+     margin: 1rem;
+}
+
+#contact img{
+     height: 3rem;
+     margin: 0rem 0.5rem;
+}
+
+.info{
+     display: flex;
+}
+
+h2{
+     text-align: center;
+}
+
+img{
+     height: 10rem;
+     width: auto;
+}
